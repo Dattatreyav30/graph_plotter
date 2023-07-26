@@ -1,0 +1,48 @@
+.form {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 0 300px 500px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.form input {
+  padding: 10px;
+  margin: 5px;
+}
+
+h2 {
+  text-align: center;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.graphContainer {
+  width: 60px;
+  height: 200px;
+  border: 1px solid #ccc;
+  margin: -250px auto;
+  position: relative;
+  border: 1px solid black;
+}
+
+.inputBar {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: #008cff;
+}
+
+.maxBar {
+  width: 100%;
+  background-color: #c2e3ff;
+}
